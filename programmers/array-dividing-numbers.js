@@ -1,7 +1,7 @@
 function solution(arr, divisor) {
   var answer = []
 
-  arr.forEach(element => {
+  arr.map(element => {
     if (element % divisor == 0) {
       answer.push(element)
     }
